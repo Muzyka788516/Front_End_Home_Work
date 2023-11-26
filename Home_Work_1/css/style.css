@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.nav_bar {
+    background-color: #f44336;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    
+}
+ul {
+    display: flex;
+    padding: 12px 24px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+}
+li {
+    list-style: none;
+    padding: 12px 24px;
+}
+li > button {
+    background-color: #f44336;
+    border: none; /* рамка у кнопки */
+    color: white;
+    font-size: 18px;
+}
+/*SECTION_1*/
+.section_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f44336; 
+}
+.title_1 {   
+padding: 128px 16px;
+background-color: #f44336 ;
+}
+h1 {
+    font-size: 64px;
+    margin: 16px;
+    color: #ffffff;
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 24px 0;
+    color: #ffffff;
+}
+.title_1 > button {
+    font-size: 18px;
+    background-color: black;
+    color: #ffffff;
+    padding: 12px 24px;
+    margin-top: 16px; /*верхний отступ кнопки */
+    margin-left: 140px;
+    border: none; /*убираем границы кнопки*/ 
+}
+
+
+/*SECTION_2*/
+.section_2 {
+    padding-top: 64px;
+    padding-left: 100px;
+
+    display: flex;
+    
+    
+}
+.title_2 {
+    width: 50%;
+}
+.title_2 >h2  {
+font-weight: 400;
+font-size: 36px;
+color: black;
+margin: 10px 0px;
+}
+.title_2 > p{
+padding-top: 32px;
+padding-bottom: 32px; /*отступы между текстами*/
+}
+.title_2>h2 {
+    text-align: start;
+}
+.text_1  {
+    color: #000000;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 32px 0px; /*????*/
+}
+.text_2 {
+    color: #757575;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+img {
+    /* font-size: 200px; */
+    width: 200px;
+    margin: 65px;
+}
+
+/*SECTION_3*/
+.section_3 {
+    background-color: #f1f1f1;
+    padding-top: 64px;
+        padding-left: 100px;
+    
+        display: flex;
+        justify-content: space-around;
+        /* justify-content:space-evenly; */
+        
+}
+.title_3 {
+    width: 50%;
+
+    
+}
+.title_3 > h2{
+font-weight: 400;
+font-size: 36px;
+margin: 10px 0px;
+text-align: start;
+color: #000000;
+}
+.title_3 > p {
+padding-top: 32px;
+padding-bottom: 32px
+}
+.text_3 {
+color: #000000;
+font-size: 18px;
+margin: 10px 0px;
+padding: 32px 0px;
+}
+.text_4 {
+color: #757575;
+font-size: 15px;
+}
+.img_2 {
+    width: 50%;
+    display: flex;
+    justify-content:flex-start ;
+
+    
+}
+.img_2 > img {
+justify-content: flex-start;
+}
+
+/*Section_4*/
+.section_4 {
+    background-color:#535050 ;
+    
+}
+.title_4 {
+  padding: 64px 16px;
+
+  
+}
+.title > h2 {
+    color: #fff;
+  
+}
+
+/*Коментарии  учителю
+1. У меня не открыввется ссылка сайта.
+2. Хотела применить стиль box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); но не поняла к какому элементу
+3. Так и не разобралась как вытянуть картинку, поэтому скачала иконку из интернета.
+4. Не могу найти нужные размеры, цвет отличается. Мне было сложно работать с этим макетом черпез инспектор кода. Я потратила много времени на этот макет и в итоге ничего не получилось и я не смогла его закончить. */
